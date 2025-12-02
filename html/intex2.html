@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name ="description" content="learning HTML for full stack"/>
+    <meta name ="keywords" content="HTML, CSS, JavaScript,MERN"/>
+    <meta name ="author" content="Mehanathan"/>
+    <title> HTML Website</title>
+</head>
+<body>
+    <h1>My HTML-Only Website</h1>
+    <h2>simple site build using only HTML tags- no css.</h2>
+    <ul>
+        <li><a href=""target="#home">home</a></li>
+        <li><a href=""target="#about">about</a></li>
+        <li><a href=""target="#features">features</a></li>
+        <li><a href=""target="#contact">contact</a></li>
+    </ul>
+    <h2 id ="home">Home</h2>
+    <p>this page demonstrates layout and contact using only HTML tags. use heading ,lists, and forms to present information without CSS.</p>
+    <h1 id="about">About this page </h1>
+    <p>The page uses semantic tags: &ltheader&gt, &ltnav&gt, &ltmain&gt, &ltarticle&gt, &ltaside&gt and &ltfooter&gt </p>
+      <h3>Key Points</h3>
+    <ol>
+        <li>Redable structure for users and search engines.</li>
+        <li>No external styles - browser default styles only.</li>
+        <li>Works Well for quick prototype or content-focused pages.</li>
+    </ol>
+     <h2 id ="features">Features (HTML-only)</h2>
+    <dl>Semantic layout</dl>
+    <dd>Clear structure using sectioning elements</dd>
+    <dl>Accessible navigation</dl>
+    <dd>Keyboard and screen-reader-friendly links and headings</dd>
+    <dl>Forms and tables</dl>
+    <dd>Collect input and show tablular data using plain HTML.</dd>
+    <h2>sample data table</h2>
+     <table border="5">
+    
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>mehanathan</td>
+            <td>John</td>
+            <td>Arif</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>meha@gmail.com</td>
+            <td>jhn@gmail.com</td>
+            <td>arf@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>1234567890</td>
+            <td>0987654321</td>
+            <td>987654321</td>
+        </tr>
+    </tbody>
+</table>
+   <h2>Quick Links</h2>
+    <ul>
+        <li><a href="#features">See features</a></li>
+        <li><a href="#contact">Contact us</a></li>
+        <li><a href ="#about">More about this demo</a></li>
+    </ul>  
+    <h2 id ="contact">contact</h2>
+    <p>if you like to get in touch,fill this simple form (no stylinh)</p>
+    <form>
+     <fieldset>
+        <legend>Content</legend>  
+        <label for="name">Name:</label>
+        <input type="text" id="name" minlength="3" maxlength="10" required><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+        <br>
+        <label for="message">Message:</label>
+        <input type="password" id="password" required><br>
+        <br>
+        <p>preferred contact</p>
+        <input type ="radio" name="choice" value ="email">Email</input>
+         <input type ="radio" name="choice" value ="phone">phone</input>
+        <button>send</button>
+        </fieldset>
+    </form>
+    <footer><p>@ 2025 My HTML-Only Website.</p></footer>
+</body>
+</html>
+
