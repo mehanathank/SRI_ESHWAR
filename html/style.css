@@ -1,41 +1,73 @@
-/* 1. universal selector */
-* { 
-    border: 1px solid red ;
 
+/* Universal selector  */
+*{
+    /border: 1px solid black;/
 }
 
-/* 2. tag selector */
-h1 {background-color: lightblue;
+/* tag selector */
+h1{
+    background-color: aquamarine;
 }
 
-/* 3. id selector */
+/* Id selector - # */
 #a{
-    color: green;
-    background-color: lightgray;
+    color: white;
+    background-color: aqua;
 }
 
-/* 4. class selector */
+/* class selector - . */
 .b{
-    color: aquamarine;
-    border: 2px solid;
+    border: 10px solid blueviolet;
 }
-/* 5. group selector */
-h1,h2{
-    color: brown ;
+
+/* Group selector - , */
+h1, h2{
+    text-align: center;
 }
-/* 6. descendant selector */
+
+/* Descendant selector */
 div p{
-    color: purple;
-    background-color: orange;
+    text-align: right;
 }
-/* 7. child selector */
+
+/* Child selector - > */
 div > p{
-    color: blue;
-    background-color: red;
+    color: green;
+    background-color: aqua;
 }
-/* 8. attribute selector */
+
+/* Attribute selector */
 button[type="submit"]{
-    background-color:blue;
     color: red;
     font-size: 32px;
+}
+
+/* Pseudo class - : */
+li:nth-child(2){
+    color: mediumvioletred;
+    font-size: large;
+}
+
+li:nth-child(3):hover{
+    color: orange;
+    font-size: medium;
+    background-color: lightseagreen;
+}
+
+/* Pseudo elements - :: */
+#a::first-line{
+    font-size: 32px;
+    color: purple;
+}
+
+/**{
+    padding: 0;
+    margin: 0;
+}*/
+
+/Box model/
+h1:nth-child(1){
+    margin: 10px;
+    border: 5px solid br;
+    padding: 10px 20px 40px 80px; 
 }
