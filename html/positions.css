@@ -1,11 +1,33 @@
 .container{
-    width:30vh;
-    height:80vh;
-    border:2px solid black;
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid blueviolet;
 }
 
 h1{
-    background-color: bisque;
-    font-weight:700;
-    color:red;
+    background-color: aqua;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
 }
